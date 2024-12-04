@@ -104,6 +104,6 @@ Audio_Signal/
 This project is licensed under the MIT License.
 
 ## Disclaimer
-This project was developed as part of a laboratory exercise at the Technical University. The idea and structure of the program are based on the protocol and instructions provided during the course. It was created solely for educational purposes and does not represent original research or innovation.
+This project was developed as part of a laboratory exercise at the Technical University of Sofia. The idea and structure of the program are based on the protocol and instructions provided during the course. It was created solely for educational purposes and does not represent original research or innovation.
 
-Any resemblance to existing projects or solutions is coincidental and complies with the academic guidelines of the Technical University.
+Any resemblance to existing projects or solutions is coincidental and complies with the academic guidelines of the Technical University of Sofia.
