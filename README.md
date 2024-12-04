@@ -29,3 +29,17 @@ This project demonstrates the generation and visualization of various audio sign
    git clone https://github.com/omer-mestan/Audio_Signal.git
    cd Audio_Signal
 
+# Audio Signal Synthesis and Music Generator
+
+This project demonstrates the generation and visualization of various audio signal waveforms and the creation of a simple musical composition. The project was developed as part of a laboratory exercise at the Technical University.
+
+---
+
+## Set Up Python Environment
+
+### Create a Python Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+
