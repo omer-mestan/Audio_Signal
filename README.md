@@ -5,15 +5,15 @@ This project demonstrates the generation and visualization of various audio sign
 ## Features
 
 ### Audio Signal Synthesis
-- **Supported Signal Types**:
+**Supported Signal Types**:
   - Sine wave
   - Rectangular wave
   - Asymmetric triangular wave
   - Symmetric triangular wave
-- **Visualizations**:
+**Visualizations**:
   - Time-domain signal plots
   - Frequency spectra
-- **Output**:
+**Output**:
   - Signals are saved as `.wav` files.
 
 ### Music Generator
@@ -58,10 +58,11 @@ python audio_signal_synthesis_template.py
 
 ### Run Music Generator Program
 - Navigate to the project directory.
-- Run the music generator script:
-   ```bash
+- Run the music generator script
+
+ ```bash
  python music_generator.py
-   ```
+ ```
 
 ### Output:
 - A .wav file named composed_music.wav containing the generated musical compositio
