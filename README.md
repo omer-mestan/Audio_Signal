@@ -27,20 +27,22 @@ This project demonstrates the generation and visualization of various audio sign
    ```bash
    git clone https://github.com/omer-mestan/Audio_Signal.git
    cd Audio_Signal
-   
+      ```
 ### Set Up Python Environment
    ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows: venv\Scripts\activate
-
+   ```
 ## Install Dependencies
+
 ### Install the required Python libraries:
    ```bash
    pip install -r requirements.txt
-
+   ```
 ### If requirements.txt is not available, install the libraries manually:
    ```bash
    pip install numpy scipy matplotlib
+   ```
 
 ## Usage
 ### Run Audio Signal Synthesis Program
@@ -48,6 +50,8 @@ This project demonstrates the generation and visualization of various audio sign
 - Run the audio signal synthesis script:
  ```bash
 python audio_signal_synthesis_template.py
+   ```
+
 ### Outputs:
 - .wav files for each waveform type (e.g., sine_wave.wav).
 - Visualizations of the signals in both time and frequency domains.
@@ -57,6 +61,8 @@ python audio_signal_synthesis_template.py
 - Run the music generator script:
    ```bash
  python music_generator.py
+   ```
+
 ### Output:
 - A .wav file named composed_music.wav containing the generated musical compositio
 
@@ -76,8 +82,9 @@ Audio_Signal/
 ├── venv/                                # Optional Python virtual environment
 ├── requirements.txt                     # Project dependencies
 └── README.md                            # Project documentation
-
+   ```
 ## Dependencies
+
 ## This project requires the following:
 - Python: Version 3.8 or higher
 - Libraries:
@@ -93,6 +100,7 @@ Audio_Signal/
 
 ## License
 This project is licensed under the MIT License.
+
 ## Disclaimer
 This project was developed as part of a laboratory exercise at the Technical University. The idea and structure of the program are based on the protocol and instructions provided during the course. It was created solely for educational purposes and does not represent original research or innovation.
 
