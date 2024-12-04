@@ -27,7 +27,8 @@ This project demonstrates the generation and visualization of various audio sign
    ```bash
    git clone https://github.com/omer-mestan/Audio_Signal.git
    cd Audio_Signal
-      ```
+   ```
+
 ### Set Up Python Environment
    ```bash
     python -m venv venv
@@ -40,7 +41,7 @@ This project demonstrates the generation and visualization of various audio sign
    pip install -r requirements.txt
    ```
 ### If requirements.txt is not available, install the libraries manually:
-   ```bash
+  ```bash
    pip install numpy scipy matplotlib
    ```
 
