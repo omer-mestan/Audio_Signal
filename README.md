@@ -1,109 +1,161 @@
-# Audio Signal Synthesis and Music Generator
+# Audio Signal Synthesis and Music Composition
 
-This project demonstrates the generation and visualization of various audio signal waveforms and the creation of a simple musical composition. The project was developed as part of a laboratory exercise at the Technical University.
+This repository focuses on the generation, visualization, and export of basic audio waveforms using Python. It also includes a simple music composition exercise based on sine-wave note generation.
 
-## Features
+The project was created in an educational context and is useful as a portfolio example because it combines mathematics, signal processing, waveform visualization, and audio file generation in one place.
 
-### Audio Signal Synthesis
-**Supported Signal Types**:
-  - Sine wave
-  - Rectangular wave
-  - Asymmetric triangular wave
-  - Symmetric triangular wave
-**Visualizations**:
-  - Time-domain signal plots
-  - Frequency spectra
-**Output**:
-  - Signals are saved as `.wav` files.
+## Project Overview
 
-### Music Generator
-- Generate a sequence of notes using sine waves.
-- Save the musical composition as a `.wav` file.
-- Includes an example melody ("Für Elise" by Beethoven).
+The repository is centered around two related tasks:
 
-## Installation
+- synthesizing basic waveform signals
+- generating a simple musical composition from individual notes
 
-### Clone the Repository
-   ```bash
-   git clone https://github.com/omer-mestan/Audio_Signal.git
-   cd Audio_Signal
-   ```
+The work demonstrates how digital audio signals can be:
 
-### Set Up Python Environment
-   ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-## Install Dependencies
+- generated mathematically
+- visualized in the time domain
+- analyzed in the frequency domain
+- exported as `.wav` audio files
 
-### Install the required Python libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
-### If requirements.txt is not available, install the libraries manually:
-  ```bash
-   pip install numpy scipy matplotlib
-   ```
+## Included Waveforms
 
-## Usage
-### Run Audio Signal Synthesis Program
-- Navigate to the project directory.
-- Run the audio signal synthesis script:
- ```bash
+The signal synthesis part of the project is designed around several common waveform types:
+
+- sine wave
+- rectangular wave
+- asymmetric triangular wave
+- symmetric triangular wave
+
+Example output files already included in the repository:
+
+- `sine_wave.wav`
+- `rectangular_wave.wav`
+- `asymmetric_triangle_wave.wav`
+- `symmetric_triangle_wave.wav`
+
+## Music Composition Part
+
+The repository also includes a separate music-related exercise where notes are generated as sine waves and combined into a simple melody.
+
+This demonstrates:
+
+- note-based audio generation
+- combining multiple generated tones into one composition
+- exporting the final composition as a `.wav` file
+
+The current template uses a short excerpt inspired by *Fur Elise* as an example note sequence.
+
+## Repository Structure
+
+Main files:
+
+- `audio_signal_synthesis_template.py` - waveform generation, visualization, spectrum plotting, and WAV export
+- `music_composition_template.py` - note-based music generation template
+- `sine_wave.wav` - generated sine waveform example
+- `rectangular_wave.wav` - generated rectangular waveform example
+- `asymmetric_triangle_wave.wav` - generated asymmetric triangular waveform example
+- `symmetric_triangle_wave.wav` - generated symmetric triangular waveform example
+
+## Technologies Used
+
+- Python
+- NumPy
+- SciPy
+- Matplotlib
+
+## Educational Focus
+
+This project is especially useful for learning and demonstrating:
+
+- basic digital signal synthesis
+- waveform generation through mathematical formulas
+- audio visualization
+- Fourier transform / spectrum inspection
+- WAV file creation in Python
+- combining programming with audio and signal-processing concepts
+
+## Important Note About The Code
+
+The Python files in this repository are template-based educational exercises. Some sections are intentionally left incomplete and are meant to be filled in as part of the laboratory work.
+
+That means the repository currently represents:
+
+- the structure of the lab tasks
+- example output files
+- the core educational direction of the project
+
+rather than a fully polished production-style audio library.
+
+## How To Run
+
+Create and activate a virtual environment if you want:
+
+Windows:
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+macOS / Linux:
+
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+Install the required libraries:
+
+```bash
+pip install numpy scipy matplotlib
+```
+
+Then run one of the scripts:
+
+```bash
 python audio_signal_synthesis_template.py
-   ```
+```
 
-### Outputs:
-- .wav files for each waveform type (e.g., sine_wave.wav).
-- Visualizations of the signals in both time and frequency domains.
+or
 
-### Run Music Generator Program
-- Navigate to the project directory.
-- Run the music generator script
+```bash
+python music_composition_template.py
+```
 
- ```bash
- python music_generator.py
- ```
+## Expected Outputs
 
-### Output:
-- A .wav file named composed_music.wav containing the generated musical compositio
+Depending on the completed implementation, the project can produce:
 
-## Example Output Files
-### The following files are generated by the program:
-- sine_wave.wav
-- rectangular_wave.wav
-- asymmetric_triangle_wave.wav
-- symmetric_triangle_wave.wav
-- composed_music.wav
+- waveform plots in the time domain
+- frequency spectrum plots
+- generated `.wav` files for the different signal types
+- a generated music composition file
 
-## Project Structure
-  ```bash
-Audio_Signal/
-├── audio_signal_synthesis_template.py   # Audio signal synthesis and visualization
-├── music_generator.py                   # Music generator script
-├── venv/                                # Optional Python virtual environment
-├── requirements.txt                     # Project dependencies
-└── README.md                            # Project documentation
-   ```
-## Dependencies
+## Why This Project Matters
 
-## This project requires the following:
-- Python: Version 3.8 or higher
-- Libraries:
-- numpy: For numerical computations
-- scipy: For signal processing
-- matplotlib: For visualizations
+This repository is valuable because it shows a different side of programming compared to standard web or CRUD projects. It demonstrates work with:
 
-## Future Enhancements
-- Add support for custom waveforms and user-defined signal parameters.
-- Extend the music generator to include multiple instruments and wave types.
-- Implement a graphical user interface (GUI) for easier interaction.
-- Include real-time audio playback during signal generation.
+- mathematical modeling
+- signal processing concepts
+- audio synthesis
+- scientific and engineering-oriented Python programming
 
-## License
-This project is licensed under the MIT License.
+For a student portfolio, that helps show broader technical interest and the ability to work on projects outside traditional business applications.
 
-## Disclaimer
-This project was developed as part of a laboratory exercise at the Technical University of Sofia. The idea and structure of the program are based on the protocol and instructions provided during the course. It was created solely for educational purposes and does not represent original research or innovation.
+## Possible Future Improvements
 
-Any resemblance to existing projects or solutions is coincidental and complies with the academic guidelines of the Technical University of Sofia.
+Some useful directions for improving this project would be:
+
+- completing all template sections
+- adding command-line parameters for waveform configuration
+- generating more waveform types
+- adding waveform comparison charts
+- exporting spectrograms
+- adding playback support
+- building a small GUI for signal generation
+
+## Author
+
+**Yumer Mestan**  
+GitHub: [omer-mestan](https://github.com/omer-mestan)
